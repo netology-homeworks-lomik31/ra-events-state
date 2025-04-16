@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #f0f2f5; */
+    padding: 2rem;
+}
+
+.App {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.icon-switch {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+}
+
+.material-icons {
+    cursor: pointer;
+    font-size: 28px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.material-icons:hover {
+    color: #ff4d4f;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.cards-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.shop-item {
+    display: flex;
+}
